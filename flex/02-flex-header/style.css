@@ -2,7 +2,7 @@
   font-family: monospace;
   background: papayawhip;
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
 }
@@ -19,6 +19,7 @@
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  padding: 4px 32px;
 }
 
 a {
@@ -27,4 +28,5 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+  flex: 1;
 }
